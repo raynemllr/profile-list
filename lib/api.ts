@@ -85,7 +85,7 @@ export async function getUsers({
   limit?: number
 }) {
   // * Added a delay to see the loading state of each pages
-  await delay(1200)
+  await delay(1000)
 
   const response = await fetch(`https://randomuser.me/api?results=${limit}`, {
     method: 'GET'
