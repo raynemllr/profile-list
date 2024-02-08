@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Profile List
 
-## Getting Started
+This is an example project built for the purpose of testing your React (& NextJS) knowledge.
 
-First, run the development server:
+It is VERY simple, but it is working!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To get it running, install the dependencies (`npm install`) and run (`npm run dev`)!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> If you have any issues getting the project up and running, please let us know. We don't want you to get stuck on this.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What do I do?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Basically, we want you to spend some time (at least one hour, try not to spend more than say 2 hours on this) making this project _better_. You will be graded mostly on **SKILL** here, (i.e. how much can be done within the time frame) while also partially on creativity.
 
-## Learn More
+You have free rein to add whatever you want! Here are some cool ideas to get the ball rolling:
 
-To learn more about Next.js, take a look at the following resources:
+1. Add a navbar, header, and/or footer to the page
+2. Style the page in a nice way (using a styling framework or from scratch, whichever works better for you)
+3. Add more columns to the profile list (Profile picture, location, phone number, etc.)
+4. Add a search bar (This will likely require some research into the API we are talking to: https://randomuser.me/) or the ability to filter by a parameter
+5. Implement a full-profile page so that you can see more information on the person
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As you can see, there is a LOT that can be done here. Happy Coding!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## FAQ
 
-## Deploy on Vercel
+1. Is it okay to deviate from the boilerplate code provided? (Inline vs Separated CSS, Functional vs Class components, etc.)
+   > Absolutely! Do whatever you think is the cleanest and most optimized code that works well. Above all, we would want the finalized codebase to be _self-consistent_.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Okay I finished, now what?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To send the finished product back to us, you can do 1 of 2 things:
+
+- Make a github repo, commit your finished version, and add `benjaminjkern` as a contributor
+  - Or I guess you could make it public and just send us the link
+- Zip up the file and email it back to us!
+
+## When will I hear back from you?
+
+We will try to get back to all candidates within 1 week of completion of the assignment!
+
+Let us know if you have any other questions!
+
+Cheers!
