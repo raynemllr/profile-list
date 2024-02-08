@@ -1,6 +1,6 @@
 import { Skeleton } from '@/components/ui/skeleton'
 
-const Loading = () => {
+export default function Loading() {
   const skeletonCount = 8
 
   return (
@@ -22,4 +22,3 @@ const Loading = () => {
     </div>
   )
 }
-export default Loading

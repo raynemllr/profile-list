@@ -1,6 +1,8 @@
 import SearchInput from '@/components/search-input'
 import { TypewriterEffect } from '@/components/ui/typewritter-effect'
 import UserProfileGrid from '@/components/user-profile-grid'
+import { Suspense } from 'react'
+import Loading from './loading'
 
 const words = [
   {
@@ -30,16 +32,18 @@ export default function Home({
     typeof searchParams.search === 'string' ? searchParams.search : undefined
 
   return (
-    <div className='h-full min-h-screen bg-dot-black/[0.2]'>
-      <div className='py-10'>
-        <TypewriterEffect words={words} />
-      </div>
+    <Suspense fallback={<Loading />}>
+      <div className='h-full min-h-screen bg-dot-black/[0.2]'>
+        <div className='py-10'>
+          <TypewriterEffect words={words} />
+        </div>
 
-      <div className='my-5 flex items-center justify-around'>
-        <SearchInput search={search} />
-      </div>
+        <div className='my-5 flex items-center justify-around'>
+          <SearchInput search={search} />
+        </div>
 
-      <UserProfileGrid search={search} />
-    </div>
+        <UserProfileGrid search={search} />
+      </div>
+    </Suspense>
   )
 }

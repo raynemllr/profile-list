@@ -1,6 +1,6 @@
 import { Skeleton } from '@/components/ui/skeleton'
 
-const Loading = () => {
+export default function Loading() {
   return (
     <div className='flex h-full min-h-screen w-full flex-col items-center justify-center space-y-2 py-4 bg-grid-small-black/[0.2]'>
       <div className='flex w-11/12 py-5 md:w-3/4 lg:w-[50rem] lg:py-0'>
@@ -11,4 +11,3 @@ const Loading = () => {
     </div>
   )
 }
-export default Loading
